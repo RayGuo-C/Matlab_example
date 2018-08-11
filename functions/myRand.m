@@ -7,9 +7,9 @@
 
 % functions
 
-%function myRand 
-%a = 9*rand(3,4)+3;
-%end
+function myRand 
+a = 9*rand(3,4)+3
+end
   
 % function  output
 % We can get anything out of a funciton and into a variable in the command window
