@@ -1,0 +1,18 @@
+climate Data for Nashville,TN
+Average high,low,precip
+
+         High    Low   Precip 
+  Jan:   46.00,  28.00,   3.98
+  Feb:   51.00,  31.00,   3.70
+March:   61.00,  39.00,   4.80
+April:   56.00,  38.00,   4.80
+  May:   66.00,  37.00,   3.90
+ June:   68.00,  34.00,   3.90
+
+         High    Low   Precip 
+ July:   89.00,  69.00,   3.78
+  Aug:   88.00,  68.00,   3.27
+  Sep:   82.00,  61.00,   3.58
+  Oct:   56.00,  38.00,   4.80
+  Nov:   66.00,  37.00,   3.90
+  Dec:   68.00,  34.00,   3.90
