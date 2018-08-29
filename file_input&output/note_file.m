@@ -13,4 +13,13 @@ save name % save name.mat file in the current folder
 save name A % only save the varible A in the name.mat
 load name % load name.mat file from the current folder
 
-% 
+% Excel
+[num,txt,raw] = xlsread('data_example.xls');% num: only receive the cell containign numbers;txt: only receive the cell that contain text; raw:receive all the data in the spreadsheet
+num = xlsread('data_example.xls',1,'B4:B15')% 1 mean sheet 1;
+xlswrite('foo.xls',{'Hello', 45},1,'A3');
+
+% text files
+ fopen(filenam, ' ' )%a text file must be open before it can be written or read
+
+% Binary files
+fopen(filename,' ')% a binary file must be open before it can be written or read
