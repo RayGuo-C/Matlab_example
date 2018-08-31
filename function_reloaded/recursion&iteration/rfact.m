@@ -9,4 +9,3 @@ end
     else 
        f = n*rfact(n-1);
     end
-

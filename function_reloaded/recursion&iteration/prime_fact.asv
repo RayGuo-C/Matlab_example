@@ -1,0 +1,8 @@
+function B = prime_fact(A)
+for ii = 2:sqrt(A)
+    if rem(A,ii) == 0
+        B = [ ii prime_fact(A/ii)];
+  %      return; % return the func
+    end
+end
+B = A;% what mean

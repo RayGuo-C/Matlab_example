@@ -1,0 +1,7 @@
+function B = flip_digital(A)
+if fix(A/10)~=0
+    B = A;
+else
+    B = flip_digital(fix(A/10)) + rem(A,10)*10;
+end
+
